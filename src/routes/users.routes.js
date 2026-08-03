@@ -1,5 +1,5 @@
 import {Router} from 'router';
-import registerUser, { loginUser, logoutUser, refreshAccessToken } from '../controllers/user.controller';
+import registerUser, { getCurrentUser, getWatchHistory, loginUser, logoutUser, refreshAccessToken, updateAccountDetails, updateUserAvatar, updateUserCoverImage,getUserChannelProfile } from '../controllers/user.controller';
 import { verifyJWT } from '../middlewares/auth.middleware';
 const router = Router()
 
